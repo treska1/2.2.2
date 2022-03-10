@@ -2,7 +2,7 @@ package web.model;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
+
 
 public class Car {
 
@@ -42,13 +42,7 @@ public class Car {
         this.series = series;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Car{" +
-//                "model='" + model + '\'' +
-//                ", series=" + series +
-//                '}';
-//    }
+//
 
     public static List<Car> createCars(){
         List<Car> cars = new ArrayList<>();
@@ -57,7 +51,6 @@ public class Car {
         cars.add(new Car("model3", 3));
         cars.add(new Car("model4", 4));
         cars.add(new Car("model5", 5));
-        Stream stream = cars.stream();
         return cars;
     }
 }
