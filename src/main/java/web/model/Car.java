@@ -42,15 +42,4 @@ public class Car {
         this.series = series;
     }
 
-//
-
-    public static List<Car> createCars(){
-        List<Car> cars = new ArrayList<>();
-        cars.add(new Car("model1", 1));
-        cars.add(new Car("model2", 2));
-        cars.add(new Car("model3", 3));
-        cars.add(new Car("model4", 4));
-        cars.add(new Car("model5", 5));
-        return cars;
-    }
 }

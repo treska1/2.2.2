@@ -1,7 +1,7 @@
 package web.service;
 
-import web.CarDAO.CarDAO;
-import web.CarDAO.CarDAOImpl;
+import web.carDAO.CarDAO;
+import web.carDAO.CarDAOImpl;
 import web.model.Car;
 
 import java.util.List;
